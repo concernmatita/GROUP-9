@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+.container{
+font-size:1.2rem;
+width:80%;
+display:flex;
+align-items: flex-start;
+margin:5em auto;
+border-radius:.3em;
+box-shadow:0 .3em 1em #000;
+background:rgb(2, 2, 53);
+position:relative;
+}
+.left, .right{
+    width:50%;
+    
+}
+.left-side{
+    margin:2em auto;
+    width:100%;
+    text-align: center;
+}
+.left-side #logo{
+    width:30%;
+    margin:.4em;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size:1.7rem;
+    cursor:pointer;
+    position:relative;
+    top:.4px;
+    
+
+}
+.left-side #logo a{
+    text-decoration: none;
+    color:#fff;
+}
+.left-side p{
+    width: 34%;
+    text-align: left;
+    margin:1em auto;
+    color:#ddd;
+}
+.button{
+    margin-bottom:2em;
+    width:25%;
+    background:#f8f8f8;
+    border:none;
+    border-radius:2em;
+    padding:.4em 0;
+    font-size:1em;
+}
+.left-side small{
+    
+    color:#fff;
+    position:absolute;
+    bottom:5%;
+    left:2em;
+}
+.right{
+    background-color: #f8f8f8;
+}
+.righ-side{
+    text-align: center;
+    width:100%;
+    margin-left:2em;
+}
+.right-side h2{
+    margin-bottom:.5em;
+    color:rgb(2, 2, 53);
+}
+.right-side label{
+display:inline-block;
+}
+.right-side input{
+    width:100%;
+    border:none;
+    border-left: 2px solid darkgray;
+    padding:.5em 0;
+    margin:1em 0 0 0;
+    outline:none;
+    display: block;
+    
+}
+.fa-check-circle,
+.fa-exclamation-circle{
+visibility: hidden;
+}
+.right-side small{
+    visibility: hidden;
+}
+.rifht.exra-info{
+    display:flex;
+    justify-content: space-between;
+
+}
+.extra-info a{
+    margin-top:2em;
+    text-decoration: none;
+    color:rgb(2, 2, 53);
+}
+.exra-info .fa{
+color:#000;
+visibility: visible;
+}
+.extra-info button{
+    background-color:rgb(2, 2, 53) ;
+    color:#f8f8f8;
+}
+
+
